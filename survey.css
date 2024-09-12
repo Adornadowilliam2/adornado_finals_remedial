@@ -1,0 +1,52 @@
+fieldset{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#handleradd{
+    background-image: linear-gradient(to bottom, cyan, aliceblue, white);
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+
+}
+
+.borderhandleradd{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: aliceblue;
+    max-width: 800px;
+    display: block;
+    margin: auto;
+}
+
+form[action="admin.php"]{
+    border: 2px red solid;
+}
+
+form[action="admin.php"] input{
+    border: 2px red solid;
+
+}
+
+#edit{
+    background-color: #31a9fe;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+#delete{
+    background-color: #d63e29;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+/*=============End??===============*/

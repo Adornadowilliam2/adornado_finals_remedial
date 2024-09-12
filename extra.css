@@ -1,0 +1,550 @@
+/*============================================*/
+/*==================CREATE ACCOUNT PHP==================*/
+
+.create{
+    background-image: url(media/create.jpg);
+    background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position: center; 
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+
+.create form{
+    border: black 1px solid;
+    padding: 10px;
+    height: 400px;
+    display: flex;
+    background-color: #ffffff61;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    animation:  boxcolor infinite 1s;
+    backdrop-filter: blur(10px);
+    width: 400px;
+}
+
+@keyframes boxcolor {
+0%{
+box-shadow: 0 0 10px cyan;
+}
+25%{
+box-shadow: 0 0 15px orange;
+}
+50%{
+box-shadow: 0 0 21px royalblue;
+}
+75%{
+box-shadow: 0 0 26px violet;
+}
+100%{
+box-shadow: 0 0 31px #192a56;
+}
+}
+
+
+.create form h1{
+margin: 10px;
+}
+
+
+.create input[placeholder="username"],input[placeholder="password"]{
+padding-left: 10px;
+}
+
+
+.create input{
+margin: 10px;
+height: 20px;
+}
+
+.create input[type="submit"] {
+    padding: 1px 10px;
+    background-color: green;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 0 10px black;
+    color: honeydew;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .create input[type="submit"]:hover{
+    box-shadow: 0 0 10px cyan;
+    transform: scale(1.1);
+  }
+  
+/*============================================*/
+/*==================RECENT PHP==================*/
+.recent{
+    font-size: 40px;
+    
+}
+.recent fieldset{
+    display: none;
+}
+
+
+/*============================================*/
+/*==================Add Survey Php==================*/     
+.add{
+    background-image: url(media/Addbg.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.add fieldset{
+    font-size: 40px;
+    backdrop-filter: blur(10px);
+}
+.add fieldset input[type="text"]{
+    width: 100%;
+    height: 100px;
+    font-size: 30px;
+    background: aliceblue;
+   
+}
+.add fieldset input[type="submit"]{
+    width: 200px;
+    background: wheat;
+    height: 50px;
+    animation: princessbubblegum infinite 1s;
+    border-radius: 10px;
+}
+
+
+@keyframes princessbubblegum {
+0% { 
+box-shadow: 0 0 10px red;
+text-shadow: 0 0 5px red;
+}
+14% { 
+box-shadow: 0 0 10px orange;
+text-shadow: 0 0 5px orange;
+}
+28% { 
+box-shadow: 0 0 10px yellow;
+text-shadow: 0 0 5px yellow;
+}
+42% {
+box-shadow: 0 0 10px green; 
+text-shadow: 0 0 5px green;
+}
+57% {
+box-shadow: 0 0 10px blue;
+text-shadow: 0 0 5px blue;
+}
+71% { 
+box-shadow: 0 0 10px indigo;
+text-shadow: 0 0 5px indigo;
+}
+85% { 
+box-shadow: 0 0 10px violet;
+text-shadow: 0 0 5px violet;
+}
+100% {
+box-shadow: 0 0 10px red; 
+text-shadow: 0 0 5px red;
+}
+}
+
+/*============================================*/
+/*==================Create Handler Php==================*/ 
+.create-handler footer a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin: auto;
+    max-width: 100px;
+    border: none;
+    text-align: center;
+    background: green;
+    border-radius: 5px;
+    padding: 2px;
+    margin-top: 10px;
+}
+
+
+/*============================================*/
+/*==================Create Handler Php ==================*/ 
+/*=================SUCCESS================*/
+
+#sucess-create{
+    background-color: green;
+}
+#sucess-create{
+    background-image: url(media/createaccount.jpg);
+    background-position: center;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    
+}
+#sucess-create .content{
+    display: block;
+    margin: auto;
+    max-width: 500px;
+    text-align: center;
+    border: 1px solid black;
+    backdrop-filter: blur(10px);
+    color: green;
+    text-shadow: 0 0 20px black;
+    box-shadow: 0 0 10px gold;
+}
+#sucess-create .img {
+    position: absolute;
+    bottom: 0;
+    animation: runningpika 1s infinite;
+}
+
+@keyframes runningpika {
+    0% {
+        transform: translateX(300%);
+    }
+    20% {
+        transform: translateX(200%);
+    }
+    25% {
+        transform: translateX(150%);
+    }
+    50% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/*============================================*/
+/*==================Create Handler Php ==================*/ 
+/*=================DUPLICATE================*/
+.maroon{
+    color: maroon;
+    text-align: center;
+    text-shadow: 0 0 10px white;
+    font-size: 40px;
+    background-color: rgba(245, 222, 179, 0.43);
+}
+
+#duplicate a button{
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px white;
+}
+
+#duplicate a button:hover{
+    background-image: linear-gradient(blue, aliceblue);
+    color: gold;
+    box-shadow: 0 0 10px black;
+}
+
+#duplicate a{
+    text-decoration: none;
+}
+
+#duplicate{
+    background-image: url(media/dup.jpg);
+    text-align: center;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*============================================*/
+/*==================Delete Form Php ==================*/ 
+#delete-form input[type="text"]{
+    width: 100%;
+}
+
+#delete-form{
+    background-image: url(media/deletebg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    font-size: 40px
+}
+
+#delete-form input[type="submit"]{
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white
+}
+#delete-form input[type="submit"]:nth-child(1){
+    background: red;
+}
+#delete-form input[type="submit"]:nth-child(2){
+    background: green;
+}
+
+
+/*============================================*/
+/*==================Delete Handler Php ==================*/ 
+#delete-handler{
+    background-image: url(media/deletesuccess.jpg);
+    background-position: center;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+#delete-handler .content{
+    display: block;
+    margin: auto;
+    max-width: 500px;
+    text-align: center;
+    border: 1px solid black;
+    backdrop-filter: blur(10px);
+    color: green;
+    text-shadow: 0 0 20px black;
+    box-shadow: 0 0 10px gold;
+}
+#delete-handler .img {
+    position: absolute;
+    bottom: 0;
+    animation: runningdino 1s infinite;
+}
+
+@keyframes runningdino {
+0% {
+    transform: translateX(0);
+}
+50% {
+    transform: translateX(100%);
+}
+75%{
+    transform: translateX(150%);
+}
+80%{
+    transform: translateX(200%);
+}
+100%{
+    transform: translateX(300%);
+}
+}
+
+
+/*============================================*/
+/*==================Delete Handler Php ==================*/ 
+/*====================Footer===============*/
+#foot a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin: auto;
+    max-width: 100px;
+    border: none;
+    text-align: center;
+    background: green;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+
+/*============================================*/
+/*==================Edit Form Php ==================*/
+#editf input[type="text"]{
+    width: 100%;
+}
+
+#editf{
+    background-image: url(media/editbg.jpg);
+    font-size: 40px
+}
+#editf input[type="submit"]{
+    
+    margin-top: 20px;
+}
+#editf input[type="text"]{
+    font-size: 40px;
+}
+
+#editf input[type="submit"]{
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#editf input[type="submit"]:hover{
+    background: lightblue;
+}
+
+
+/*============================================*/
+/*==================Edit Handler Php ==================*/
+/*===================FAILED===============*/
+#succeed{
+    background-image: url(media/Invalidbg.png);
+    color: white;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+}
+.form-succeed{
+    max-width: 400px;
+    margin: 10px auto;
+    display: block;
+    backdrop-filter: blur(10px);
+    text-align:center;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.298);
+    text-shadow: 5px 5px 10px gold;
+}
+#succeed h2{
+    color: maroon;
+}
+
+
+/*============================================*/
+/*==================Edit Handler Php ==================*/
+/*===================SUCCESS==============*/
+.succeed{
+    background-image: url(media/successbg.jpg);
+}
+.form-succeed{
+    max-width: 400px;
+    margin: 10px auto;
+    display: block;
+    backdrop-filter: blur(10px);
+    text-align:center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+
+/*============================================*/
+/*==================Recent Admin Php ==================*/
+/*=====================For hide the data===============*/
+.recent{
+    display: none;
+}
+
+/*============================================*/
+/*==================Edit Handler Php ==================*/
+/*=================Invalid message===================*/
+#Invalid{
+    background-image: url(media/Kuma.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 0 0 10px white;
+}
+
+#Invalid b{
+    background-color: rgba(255, 255, 0, 0.516);
+    backdrop-filter: blur(10px);
+}
+
+#Invalid iframe{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#Invalid a button:hover{
+    box-shadow: 0 0 10px #33c3ff, 0 0 40px #33c3ff, 0 0 80px #33c3ff;
+}
+
+#Invalid a button{
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative; 
+}
+
+
+/*============================================*/
+/*==================Edit Handler Php ==================*/
+/*=================Success message===================*/
+#SUCCESS{
+    background-image: url(media/database.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 0 0 10px white;
+}
+
+#SUCCESS b{
+    background-color: rgba(255, 255, 0, 0.516);
+    backdrop-filter: blur(10px);
+    margin: 10px ;
+}
+
+
+#SUCCESS a button{
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative; 
+}
+
+#SUCCESS a button:hover{
+    box-shadow: 0 0 10px #33c3ff, 0 0 40px #33c3ff, 0 0 80px #33c3ff;
+}
+
+#SUCCESS div{
+    border-radius: 5px;
+    box-shadow: 0 0 10px green;
+    max-width: 800px;
+    margin: auto;
+    backdrop-filter: blur(10px);
+}
+
+#add-handler{
+    background-image: url(media/Insertbg.png);
+    height: 100vh;
+    text-align: center;
+}
+
+#add-handler h1{
+    background-color: yellow;
+}
+
+#add-handler a{
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative; 
+}
+
+#add-handler a:hover{
+    box-shadow: 0 0 10px #33c3ff, 0 0 40px #33c3ff, 0 0 80px #33c3ff;
+}

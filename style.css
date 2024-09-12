@@ -1,0 +1,216 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(media/bg.jpg);
+  cursor: url(media/Adventure\ Time\ Bee.cur), auto;
+}
+
+form[action="login-handler.php"] {
+  border: black 1px solid;
+  padding: 10px;
+  height: 400px;
+  display: flex;
+  background-color: #ffffff61;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  animation: boxcolor infinite 1s;
+  backdrop-filter: blur(10px);
+  width: 400px;
+}
+@keyframes boxcolor {
+  0% {
+    box-shadow: 0 0 10px cyan;
+  }
+  25% {
+    box-shadow: 0 0 15px orange;
+  }
+  50% {
+    box-shadow: 0 0 21px royalblue;
+  }
+  75% {
+    box-shadow: 0 0 26px violet;
+  }
+  100% {
+    box-shadow: 0 0 31px #192a56;
+  }
+}
+
+form[action="admin-handler.php"] h1 {
+  margin: 10px;
+}
+
+form[action="search"] label:hover {
+  background-color: white;
+  color: royalblue;
+  padding: 1px 10px;
+  border-radius: 5px;
+}
+
+form[action="search"] label {
+  background-color: white;
+  color: royalblue;
+  padding: 1px 10px;
+  border-radius: 5px;
+}
+
+input[placeholder="username"],
+input[placeholder="password"] {
+  padding-left: 10px;
+}
+
+input[placeholder="username"]:hover,
+input[placeholder="password"]:hover {
+  box-shadow: -10px -10px 15px rgba(0, 255, 255, 0.5),
+    10px 10px 15px rgba(0, 255, 255, 0.5),
+    inset -10px -10px 15px rgba(0, 255, 255, 0.5),
+    inset 10px 10px 15px rgba(0, 255, 255, 0.5);
+}
+
+input {
+  margin: 10px;
+  height: 20px;
+}
+
+#label-login {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#login {
+  padding: 10px 15px;
+  background-color: #005085;
+  text-align: center;
+  color: white;
+  border: none;
+  width: 100px;
+  border-radius: 2px;
+  transform: scale(1);
+  transition: transform 1s ease-in-out;
+}
+
+#login:hover {
+  cursor: url(media/Adventure\ time), auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-areas: "navbar content content content content content content content content";
+  height: 100vh;
+  animation: fadein 1s ease-in-out;
+  cursor: url(media/Adventure\ Time\ Bee.cur), auto;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.navbar {
+  grid-area: navbar;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  background-image: url(media/bgadmin.jpg);
+}
+
+.content {
+  grid-area: content;
+  background-color: #6cc6e9b8;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#special {
+  background-color: #f4ca38;
+}
+
+nav ul li {
+  list-style-type: none;
+  transition: background-color 0.3s ease-in-out;
+  text-shadow: 0 0 10px black;
+}
+nav ul li:hover {
+  background-color: #f4ca38;
+}
+
+nav ul li a {
+  cursor: url(media/Adventure\ Time\ Bee.cur), auto;
+}
+#vote {
+  width: 100px;
+  background-color: #005085;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+}
+
+p i {
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+}
+
+#see {
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 10px;
+  color: black;
+  box-shadow: 5px 5px 5px 10px gray;
+  font-weight: lighter;
+  background-color: #f4ca38;
+}
+
+#see:hover {
+  cursor: url(media/Adventure\ time), auto;
+  color: white;
+}
+
+.search-submit {
+  background-color: beige;
+  width: 100px;
+  height: 30px;
+}
+
+.animate {
+  animation: colorChange 1s infinite;
+}
+
+@keyframes colorChange {
+  from {
+    text-shadow: none;
+  }
+  to {
+    text-shadow: 0 0 10px gold;
+  }
+}
+
+form[action="search-handler.php"] {
+  text-shadow: 0 0 10px black;
+  backdrop-filter: blur(10px);
+}
+
+/*=============End??===============*/
+/*============Bawal kopyahin==============*/
